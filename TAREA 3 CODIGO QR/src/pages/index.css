@@ -1,0 +1,65 @@
+.title {
+  position: absolute;
+  top: 10px;
+  left: 660px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c64545;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.form {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.textfield {
+  padding: 10px;
+  font-size: 14px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: inset 2px 2px 5px #d1d1d1, inset -2px -2px 5px #ffffff;
+  transition: all 0.3s ease;
+}
+
+.textfield:focus {
+  outline: none;
+  border-color: #ffffff;
+  box-shadow: 0 0 3px #34313139;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #ffffff;
+  background: linear-gradient(145deg, #ff4b2b, #5e1123);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #d1d1d1, -2px -2px 5px #ffffff;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(145deg, #1c0107, #450a00);
+  box-shadow: 0 0 2px #000000;
+}
+
+.canvas {
+  margin-top: 60px;
+  border: 0.1px solid #000;
+  width: 300px; /* Aumentar tamaño del QR */
+  height: 300px; /* Aumentar tamaño del QR */
+}
