@@ -1,0 +1,16 @@
+{
+  "name": "destornillador-3d",
+  "version": "1.0.0",
+  "description": "Destornillador eléctrico 3D en Canvas con TypeScript",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "serve": "http-server . -p 8080"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "http-server": "^14.1.1",
+    "typescript": "^5.0.0"
+  }
+}

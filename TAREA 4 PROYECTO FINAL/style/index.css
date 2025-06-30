@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer {
+    margin-top: auto;
+}
+
+body {
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    background: linear-gradient(90deg, #033235 0%, #1d474f 50%, #034d56a2 100%);
+}
+
+
+.name-bar {
+    background-color: #14050b;
+    color: #fee8e8;
+    padding: 0.6rem 0;
+    margin: 0;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-bar h5 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.canvas-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.chart {
+    background-color: #000;
+    padding: 1rem;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    background: rgb(255, 255, 255);
+}
+
+#footer {
+    background: linear-gradient(90deg, #022325 0%, #063d48 50%, #022325 100%);
+    color: white;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: 0.95rem;
+    line-height: 0.5;
+}
+
+#footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+
+.dropdown-item:hover {
+    background-color: #034748;
+    color: rgb(255, 249, 249);
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin: 1rem;
+    }
+    
+    canvas {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.dropdown-item {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card-title {
+    color: #f4f4f4;
+}
+
+.card-header {
+    background-color: #ffffff;
+    color: white;
+    font-weight: bold;
+}
+
+
+.subir-canvas {
+    margin-top: -1000px;
+}
